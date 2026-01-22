@@ -31,7 +31,7 @@ const navItems = [
   { path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { path: '/stock', label: 'Stock Items', icon: Package },
   { path: '/categories', label: 'Categories', icon: FolderOpen },
-  { path: '/uniforms', label: 'Uniform Inventory', icon: Shirt }, // New Uniform Menu Item
+  { path: '/uniform', label: 'Uniform Inventory', icon: Shirt }, // New Uniform Menu Item
   { path: '/movements', label: 'History', icon: History },
   { path: '/reports', label: 'Reports', icon: FileText },
 ];
