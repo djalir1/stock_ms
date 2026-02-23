@@ -106,7 +106,7 @@ export default function Reports() {
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `kpi-stock-report-${reportType}-${format(new Date(), 'yyyy-MM-dd')}.csv`;
+    a.download = `stock-report-${reportType}-${format(new Date(), 'yyyy-MM-dd')}.csv`;
     a.click();
     window.URL.revokeObjectURL(url);
   };
@@ -117,7 +117,7 @@ export default function Reports() {
     
     doc.setFontSize(20);
     doc.setTextColor(40, 40, 40);
-    doc.text('KPI Stock Management', 14, 22);
+    doc.text('Stock Management', 14, 22);
     
     doc.setFontSize(14);
     doc.setTextColor(80, 80, 80);
@@ -191,7 +191,7 @@ export default function Reports() {
       );
     }
 
-    doc.save(`kpi-stock-report-${reportType}-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
+    doc.save(`stock-report-${reportType}-${format(new Date(), 'yyyy-MM-dd')}.pdf`);
   };
 
   const getStatusBadge = (status: string) => {
