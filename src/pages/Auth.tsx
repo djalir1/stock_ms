@@ -140,7 +140,7 @@ export default function Auth() {
             <Package className="w-8 h-8 text-primary-foreground" />
           </div>
           <CardTitle className="text-2xl font-bold"> Stock Management</CardTitle>
-          <CardDescription>School inventory management system</CardDescription>
+          <CardDescription>inventory management system</CardDescription>
         </CardHeader>
         <CardContent>
           <Tabs defaultValue="login" className="w-full">
