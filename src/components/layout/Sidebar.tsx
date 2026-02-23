@@ -72,7 +72,7 @@ export function Sidebar({ collapsed, onToggle }: SidebarProps) {
         </div>
         {!collapsed && (
           <div className="animate-fade-in overflow-hidden">
-            <h1 className="font-bold text-lg leading-none text-sidebar-foreground">KPI Stock</h1>
+            <h1 className="font-bold text-lg leading-none text-sidebar-foreground">Stock</h1>
             <p className="text-xs text-sidebar-foreground/60">Management System</p>
           </div>
         )}
