@@ -30,7 +30,7 @@ const navItems = [
   { path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { path: '/stock', label: 'Stock Items', icon: Package, badge: 'New' },
   { path: '/categories', label: 'Categories', icon: FolderOpen },
-  { path: '/uniform', label: 'Uniform Inventory', icon: Shirt }, // Added Uniforms here
+ // Added Uniforms here
   { path: '/movements', label: 'History', icon: History },
   { path: '/reports', label: 'Reports', icon: FileText },
 ];
