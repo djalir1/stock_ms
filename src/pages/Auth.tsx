@@ -121,7 +121,7 @@ export default function Auth() {
     } else {
       toast({
         title: 'Account created!',
-        description: 'Welcome to KPI Stock Management.',
+        description: 'Welcome to Stock Management.',
       });
       navigate('/dashboard');
     }
