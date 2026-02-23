@@ -139,7 +139,7 @@ export default function Auth() {
           <div className="mx-auto mb-4 w-16 h-16 rounded-2xl gradient-primary flex items-center justify-center shadow-glow">
             <Package className="w-8 h-8 text-primary-foreground" />
           </div>
-          <CardTitle className="text-2xl font-bold">KPI Stock Management</CardTitle>
+          <CardTitle className="text-2xl font-bold"> Stock Management</CardTitle>
           <CardDescription>School inventory management system</CardDescription>
         </CardHeader>
         <CardContent>
